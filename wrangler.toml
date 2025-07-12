@@ -1,0 +1,7 @@
+name = "zashboard-worker"
+main = "src/index.js"            # 指向你的入口文件
+compatibility_date = "2025-07-12"  # 填今天或稍早（格式 YYYY‑MM‑DD）
+workers_dev = true               # 若使用 *.workers.dev 子域
+# 若部署到自定义域名，启用下面两项并填写 zone 名称
+# route = { pattern = "example.com/*", zone_name = "example.com" }
+# account_id = "<你的 Cloudflare account ID>"
